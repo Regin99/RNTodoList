@@ -6,8 +6,10 @@ import {
   View,
 } from 'react-native';
 import {useEffect, useState} from 'react';
-import {Checkbox, Loader} from '../../../../components/molecules';
+
 import {NewTodo, Todo, UpdatedTodo} from '../../../../types/types';
+
+import {Checkbox, Loader} from '../../../../components/molecules';
 
 type TodoFormProps = {
   selectedTodo: Todo | null;
